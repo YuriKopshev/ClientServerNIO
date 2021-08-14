@@ -8,7 +8,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 
 public class Server {
-    public static final int PORT = 8181;
+    public static final int PORT = 8282;
 
     // В данной задаче выбран способ взаимодействия (NonBlocking),
     // так как тут данные передаются в буфере постоянно, целыми строками
